@@ -1,0 +1,29 @@
+{
+  "name": "tugas1-restful-2428240087",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node app.js",
+  "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayep67/tugas1-restful-2428240087.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ayep67/tugas1-restful-2428240087/issues"
+  },
+  "homepage": "https://github.com/Ayep67/tugas1-restful-2428240087#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+  
+}
