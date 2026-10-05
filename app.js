@@ -35,6 +35,15 @@ let livestock = [
 // ID berikutnya
 let nextId = 4;
 
+app.get("/", (req, res) => {
+    res.json({
+        nama: "Arief Gunawan",
+        npm: "2428240087",
+        kelas: "SI5B",
+        topik: "Peternakan",
+        resource: "livestock"
+    });
+});
 
 // GET /livestock
 app.get("/livestock", (req, res) => {
